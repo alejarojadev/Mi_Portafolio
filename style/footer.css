@@ -1,0 +1,26 @@
+.footer {
+  background-color: #39ff14;
+  background-image: url(../assets/footer.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  text-align: center;
+  color: black;
+}
+
+.footer__rodape > p {
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.footer__rodape {
+  height: 300px;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__rodape {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

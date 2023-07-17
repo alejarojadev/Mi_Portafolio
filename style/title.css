@@ -1,0 +1,62 @@
+.title__div {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin: 2rem 0;
+}
+.title {
+  padding: auto 1rem;
+}
+.title__profile {
+  height: 25rem;
+  width: 25rem;
+  border: 5px solid #39ff14;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.title__network {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3rem;
+}
+
+.title__network__item {
+  display: flex;
+  flex-direction: row;
+}
+
+.title__bio {
+  font-size: 30px;
+  /* text-align: justify */
+}
+
+@media screen and (max-width: 768px) {
+  .title__profile {
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 710px) {
+  .title__profile {
+    height: 15rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+  }
+  .title__div {
+    display: block;
+    text-align: justify;
+  }
+  .title__network {
+    padding-left: 0;
+    padding-right: 0;
+    flex-wrap: wrap;
+  }
+}

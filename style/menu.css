@@ -1,0 +1,65 @@
+:root {
+  --font-general: Nanum Gothic Coding;
+}
+body {
+  box-sizing: border-box;
+
+  padding: auto 1rem;
+
+  background: #000000;
+  font-family: var(--font-general);
+  color: white;
+  line-height: 1.6;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #39ff14;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu__logo {
+  width: 70%;
+  height: 70%;
+}
+
+.menu__list {
+  display: none;
+}
+
+.menu__list__item {
+  padding-left: 1rem;
+}
+
+@media screen and (min-width: 1028px) {
+  .menu__list {
+    display: flex;
+  }
+  .menu__list__item__contacto {
+    display: none;
+  }
+}
+@media screen and (max-width: 710px) {
+  .menu {
+    display: block;
+    text-align: center;
+  }
+}

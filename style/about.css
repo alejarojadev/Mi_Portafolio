@@ -1,0 +1,19 @@
+.about {
+  margin: 0;
+
+  background-image: linear-gradient(black, 80%, #0c3c04);
+  text-align: justify;
+}
+.about__firma {
+  display: block;
+  text-align: center;
+}
+
+.about__container {
+  padding: auto 1rem;
+}
+
+.firma {
+  width: 35%;
+  height: 35%;
+}
